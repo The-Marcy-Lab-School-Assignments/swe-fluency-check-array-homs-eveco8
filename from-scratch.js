@@ -41,10 +41,16 @@ const getEvenNumbers = (nums) => {
 };
 //console.log(getEvenNumbers(sampleNumbers))
 
-// Problem 5
-const getLargestNumber = (numbers) => {
-  //return numbers.
+// Problem 5 
+const getLargestNumber = (numbers) => { //couldn't do
+  return numbers.reduce((acc, currVal) => {
+   if (currVal > acc) {
+    acc = currVal
+   } 
+  }, 0)
 };
+console.log(getLargestNumber(sampleNumbers))
+
 
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */
@@ -78,7 +84,7 @@ const getActiveUsersUnder30 = (users) => {
 
 // Problem 9
 const getTotalScore = (users) => {
-  //return users.reduce((acc, currVal) => acc + currVal, users.score)
+  return users.reduce((acc, user) => acc + user.score, 0)
 };
 //console.log(getTotalScore(sampleUsers))
 

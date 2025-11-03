@@ -3,6 +3,7 @@
 For all of the following problems, use an array higher order method to solve the problem. You should not use any for or while loops!
 
 **Table of Contents**
+
 - [Setup](#setup)
 - [Testing](#testing)
 - [String Array Problems](#string-array-problems)
@@ -54,7 +55,7 @@ Write a function called `printEveryWord` that takes an array of words as input a
 Example Usage:
 
 ```js
-const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
+const sampleWords = ["dog", "blueberry", "alabama", "earth", "football"];
 
 printEveryWord(sampleWords);
 /* Expected Output:
@@ -73,19 +74,20 @@ Write a function called `getStringLengths` that takes an array of words as input
 Example Usage:
 
 ```js
-const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
+const sampleWords = ["dog", "blueberry", "alabama", "earth", "football"];
 
 console.log(getStringLengths(sampleWords));
 // Expected Output: [ 3, 9, 7, 5, 8 ]
 ```
 
 ### Problem 3
+
 Write a function called `sortWordsZtoA` that takes an array of words as input and sorts the array in reverse alphabetical order. This function should sort the array "in place" meaning it SHOULD mutate the array.
 
 Example Usage:
 
 ```js
-const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
+const sampleWords = ["dog", "blueberry", "alabama", "earth", "football"];
 
 sortWordsZtoA(sampleWords);
 console.log(sampleWords);
@@ -128,11 +130,11 @@ Example Usage:
 
 ```js
 const sampleUsers = [
-  { name: 'Charlie', isActive: true, age: 18, score: 80 },
-  { name: 'Edward', isActive: true, age: 30, score: 60 },
-  { name: 'Bob', isActive: true, age: 25, score: 90 },
-  { name: 'Diana', isActive: false, age: 35, score: 70 },
-  { name: 'Alice', isActive: false, age: 28, score: 100 },
+  { name: "Charlie", isActive: true, age: 18, score: 80 },
+  { name: "Edward", isActive: true, age: 30, score: 60 },
+  { name: "Bob", isActive: true, age: 25, score: 90 },
+  { name: "Diana", isActive: false, age: 35, score: 70 },
+  { name: "Alice", isActive: false, age: 28, score: 100 },
 ];
 printUserNamesAndScores(sampleUsers);
 /* Expected Output:
@@ -152,11 +154,11 @@ Example Usage:
 
 ```js
 const sampleUsers = [
-  { name: 'Charlie', isActive: true, age: 18, score: 80 },
-  { name: 'Edward', isActive: true, age: 30, score: 60 },
-  { name: 'Bob', isActive: true, age: 25, score: 90 },
-  { name: 'Diana', isActive: false, age: 35, score: 70 },
-  { name: 'Alice', isActive: false, age: 28, score: 100 },
+  { name: "Charlie", isActive: true, age: 18, score: 80 },
+  { name: "Edward", isActive: true, age: 30, score: 60 },
+  { name: "Bob", isActive: true, age: 25, score: 90 },
+  { name: "Diana", isActive: false, age: 35, score: 70 },
+  { name: "Alice", isActive: false, age: 28, score: 100 },
 ];
 console.log(getUserNames(sampleUsers));
 // Expected Output: [ 'Charlie', 'Edward', 'Bob', 'Diana', 'Alice' ]
@@ -170,11 +172,11 @@ Example Usage:
 
 ```js
 const sampleUsers = [
-  { name: 'Charlie', isActive: true, age: 18, score: 80 },
-  { name: 'Edward', isActive: true, age: 30, score: 60 },
-  { name: 'Bob', isActive: true, age: 25, score: 90 },
-  { name: 'Diana', isActive: false, age: 35, score: 70 },
-  { name: 'Alice', isActive: false, age: 28, score: 100 },
+  { name: "Charlie", isActive: true, age: 18, score: 80 },
+  { name: "Edward", isActive: true, age: 30, score: 60 },
+  { name: "Bob", isActive: true, age: 25, score: 90 },
+  { name: "Diana", isActive: false, age: 35, score: 70 },
+  { name: "Alice", isActive: false, age: 28, score: 100 },
 ];
 console.log(getActiveUsersUnder30(sampleUsers));
 /* Expected Output:
@@ -193,11 +195,11 @@ Example Usage:
 
 ```js
 const sampleUsers = [
-  { name: 'Charlie', isActive: true, age: 18, score: 80 },
-  { name: 'Edward', isActive: true, age: 30, score: 60 },
-  { name: 'Bob', isActive: true, age: 25, score: 90 },
-  { name: 'Diana', isActive: false, age: 35, score: 70 },
-  { name: 'Alice', isActive: false, age: 28, score: 100 },
+  { name: "Charlie", isActive: true, age: 18, score: 80 },
+  { name: "Edward", isActive: true, age: 30, score: 60 },
+  { name: "Bob", isActive: true, age: 25, score: 90 },
+  { name: "Diana", isActive: false, age: 35, score: 70 },
+  { name: "Alice", isActive: false, age: 28, score: 100 },
 ];
 console.log(getTotalScore(sampleUsers));
 // Expected Output: 400
@@ -211,11 +213,11 @@ Example Usage:
 
 ```js
 const sampleUsers = [
-  { name: 'Charlie', isActive: true, age: 18, score: 80 },
-  { name: 'Edward', isActive: true, age: 30, score: 60 },
-  { name: 'Bob', isActive: true, age: 25, score: 90 },
-  { name: 'Diana', isActive: false, age: 35, score: 70 },
-  { name: 'Alice', isActive: false, age: 28, score: 100 },
+  { name: "Charlie", isActive: true, age: 18, score: 80 },
+  { name: "Edward", isActive: true, age: 30, score: 60 },
+  { name: "Bob", isActive: true, age: 25, score: 90 },
+  { name: "Diana", isActive: false, age: 35, score: 70 },
+  { name: "Alice", isActive: false, age: 28, score: 100 },
 ];
 sortUsersByScoreDescending(sampleUsers);
 console.log(sampleUsers);

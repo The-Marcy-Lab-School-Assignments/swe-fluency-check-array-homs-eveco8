@@ -39,11 +39,11 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 const getEvenNumbers = (nums) => {
   return nums.filter(num => num % 2 === 0)
 };
-console.log(getEvenNumbers(sampleNumbers))
+//console.log(getEvenNumbers(sampleNumbers))
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+  //return numbers.
 };
 
 /* -------------------------------------------------- */
@@ -60,19 +60,19 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+  return users.forEach(user => console.log(`${user.name} scored ${user.score} points`))
 };
-
+//console.log(printUserNamesAndScores(sampleUsers))
 
 // Problem 7
 const getUserNames = (users) => {
-
+  return users.map(user => user.name)
 };
-
+//console.log(getUserNames(sampleUsers))
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
+  
 };
 
 
